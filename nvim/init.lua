@@ -30,7 +30,7 @@ require("lazy").setup({
 	require("plugins.misc"),
 	require("plugins.comment"),
 	require("plugins.treesitter-context"),
-  require("plugins.lazygit"),
+	require("plugins.lazygit"),
 })
 
 -- The line beneath this is called `modeline`. See `:help modeline`
