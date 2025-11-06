@@ -97,6 +97,17 @@ echo "Lazygit installed successfully!"
 lazygit --version
 
 
+# Install ripgrep
+sudo apt update
+sudo apt install -y ripgrep
+
+# Confirm installation
+if command -v rg &> /dev/null; then
+    echo "ripgrep installed successfully!"
+else
+    echo "ripgrep installation failed."
+fi
+
 
 # Step 1: Install tmux plugin manager (TPM)
 echo "Installing tmux plugin manager (TPM)..."
