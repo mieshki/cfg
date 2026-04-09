@@ -108,6 +108,11 @@ else
     echo "ripgrep installation failed."
 fi
 
+# Install others
+sudo apt install -y unzip
+sudo apt install -y clang
+sudo apt install -y lld
+sudo apt install -y tmux
 
 # Step 1: Install tmux plugin manager (TPM)
 echo "Installing tmux plugin manager (TPM)..."
